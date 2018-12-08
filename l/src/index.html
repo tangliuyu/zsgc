@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+
+    <link href="css/mui.min.css" rel="stylesheet" />
+    <style type="text/css">
+        .mui-btn-primary {
+            margin-right: 80px;
+        }
+        
+        .scroll-top {
+            top: 54px;
+        }
+        
+        .add-btn {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            z-index: 10;
+            font-size: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="mui-bar mui-bar-nav">
+        <h1 class="mui-title">1609A列表</h1>
+    </header>
+    <div class="mui-content">
+        <div class="mui-scroll-wrapper scroll-top">
+            <div class="mui-scroll">
+                <ul class="mui-table-view list">
+                    
+                </ul>
+            </div>
+        </div>
+        <span class="mui-icon mui-icon-plus add-btn"></span>
+
+    </div>
+    <script src="js/libs/require.js" data-main="./js/page/index.js"></script>
+   <!-- <script type="text/javascript" src="./js/libs/jquery-3.1.1.min.js"></script> -->
+    <!-- <script type="text/javascript">
+        $.ajax({
+            url: "/users",
+            dataType: 'json',
+            success: function(res) {
+                console.log(res)
+            }
+        })
+    </script> -->
+
+</body>
+
+</html>
